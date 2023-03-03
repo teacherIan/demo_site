@@ -1,6 +1,45 @@
 * {
-  background-color: #373E40;
+  background-color: #48d7ff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.top_bar {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.header {
+  color: white;
+  font-size: 50px;
+  font-family: fantasy;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.sign-in {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 35vw;
+  height: 35vh;
+  border: 10px solid white;
+  border-radius: 20px;
+
 }
