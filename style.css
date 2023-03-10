@@ -71,9 +71,10 @@
 .slider {
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 0%;
   display: flex;
   gap: 2vw;
+  opacity: 0;
 
 }
 
@@ -81,11 +82,17 @@
   width: 20vw;
   height: 30vw;
   border-radius: 7px;
-  opacity: 0;
+
 }
 
 .footer {
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(to bottom, #B7D5D4, #fff);
+}
+
+
+
+a {
+  text-decoration: none;
 }
